@@ -1,0 +1,6 @@
+framework module MmmmKit {
+  umbrella header "MmmmKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

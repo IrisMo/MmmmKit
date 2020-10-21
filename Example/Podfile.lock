@@ -1,0 +1,16 @@
+PODS:
+  - MmmmKit (0.1.0)
+
+DEPENDENCIES:
+  - MmmmKit (from `../`)
+
+EXTERNAL SOURCES:
+  MmmmKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MmmmKit: 5dcf8956a1c6a617a1376059cb0b44621e5619f8
+
+PODFILE CHECKSUM: 49b680d22fd05f281d099553a7ce7bac55567f4d
+
+COCOAPODS: 1.9.3
