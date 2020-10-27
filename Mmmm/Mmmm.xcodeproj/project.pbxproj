@@ -560,6 +560,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88FFAA881B62BAE517C3BAC1 /* Pods-MmmmKit.debug.xcconfig */;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -588,6 +589,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D52487E27ED3D998B8D1F3CD /* Pods-MmmmKit.release.xcconfig */;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
