@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MmmmKit'
-  s.version          = '1.0.4'
+  s.version          = '1.0.6'
   s.summary          = 'For test.'
 
 # This description is used to generate tags and improve search results.
@@ -30,13 +30,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'MmmmKit/Classes/**/*'
+#  s.source_files = 'MmmmKit/MmmmKit.framework'
   
   # s.resource_bundles = {
   #   'MmmmKit' => ['MmmmKit/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/MmmmKit.framework/Headers'
+ #  s.public_header_files = 'Pod/MmmmKit/MmmmKit.framework/Headers'
   # s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
  s.vendored_frameworks = 'MmmmKit/*.{framework}'
